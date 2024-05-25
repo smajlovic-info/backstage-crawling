@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: test-test
-  description: test-test
+  name: backstage-crawling
+  description: Backstage crawling
   annotations:
     github.com/project-slug: smajlovic-info/backstage-crawling
     backstage.io/kubernetes-id: backstage-crawling
