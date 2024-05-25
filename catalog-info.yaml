@@ -4,8 +4,8 @@ metadata:
   name: test-test
   description: test-test
   annotations:
-    github.com/project-slug: smajlovic-info/test-test
-    backstage.io/kubernetes-id: test-test
+    github.com/project-slug: smajlovic-info/backstage-crawling
+    backstage.io/kubernetes-id: backstage-crawling
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
