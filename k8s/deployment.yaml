@@ -1,0 +1,25 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-test
+  namespace: default
+  labels:
+    backstage.io/kubernetes-id: test-test
+spec:
+  replicas: 2
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: test-test
+  template:
+    metadata:
+      labels:
+        app: test-test
+        backstage.io/kubernetes-id: test-test
+    spec:
+      containers:
+      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+        name: test-test
+        ports:
+        - containerPort: 80
