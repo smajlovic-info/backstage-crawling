@@ -7,6 +7,10 @@ metadata:
     github.com/project-slug: smajlovic-info/backstage-crawling
     backstage.io/kubernetes-id: backstage-crawling
     backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://knauf.com
+      title: Knauf.com
+      icon: link
 spec:
   type: service
   lifecycle: experimental
