@@ -7,10 +7,13 @@ metadata:
     github.com/project-slug: smajlovic-info/backstage-crawling
     backstage.io/kubernetes-id: backstage-crawling
     backstage.io/techdocs-ref: dir:.
-  links:
-    - url: https://knauf.com
-      title: Knauf.com
-      icon: link
+    links:
+      - title: Website
+        url: http://cst-knauf-idp.knauf.digital
+      - title: Repo
+        url: https://github.com/Knauf-Group/cst-knauf-idp
+      - title: Submit New Issue
+        url: https://github.com/Knauf-Group/cst-knauf-idp/issues
 spec:
   type: service
   lifecycle: experimental
