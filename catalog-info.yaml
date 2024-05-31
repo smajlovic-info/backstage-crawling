@@ -3,17 +3,17 @@ kind: Component
 metadata:
   name: backstage-crawling
   description: Backstage crawling
+  links:
+    - title: Website
+      url: http://cst-knauf-idp.knauf.digital
+    - title: Repo
+      url: https://github.com/Knauf-Group/cst-knauf-idp
+    - title: Submit New Issue
+      url: https://github.com/Knauf-Group/cst-knauf-idp/issues
   annotations:
     github.com/project-slug: smajlovic-info/backstage-crawling
     backstage.io/kubernetes-id: backstage-crawling
     backstage.io/techdocs-ref: dir:.
-    links:
-      - title: Website
-        url: http://cst-knauf-idp.knauf.digital
-      - title: Repo
-        url: https://github.com/Knauf-Group/cst-knauf-idp
-      - title: Submit New Issue
-        url: https://github.com/Knauf-Group/cst-knauf-idp/issues
 spec:
   type: service
   lifecycle: experimental
